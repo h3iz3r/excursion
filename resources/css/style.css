@@ -1,4 +1,31 @@
-h1 {
+* {
+    background-color: black;
+}
+
+video {
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h4 {
+    font-family: Verdana, serif;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+
+img {
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.page-header {
     font-family: Verdana, serif;
     font-weight: normal;
     font-size: 50px;
@@ -6,8 +33,28 @@ h1 {
     text-align: center;
 }
 
-a {
+.link {
     color: aquamarine;
     font-size: 16px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header {
+    font-family: Verdana, serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+}
+
+p.footer {
+    text-align: right;
+    color: gray;
 }
